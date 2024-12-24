@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <h1>Color Palette Generator</h1>
+    </header>
+    <main>
+      <section class="upload-section">
+        <h2>Upload an image</h2>
+        <input type="file" id="imageUpload" />
+      </section>
+      <section class="palette">
+        <h2>Your Palette</h2>
+        <div class="color-grid">
+          <!-- Colors will go here -->
+        </div>
+      </section>
+      <section class="settings">
+        <h2>Settings</h2>
+        <button id="shuffle">Shuffle</button>
+        <button id="restart">Restart</button>
+      </section>
+      <footer class="bg-gray-800 text-white text-center p-4 mt-4">
+        <p>&copy; 2025 Color Palette Generator. All rights reserver.</p>
+        <a
+          href="https://github.com/estebanbrea/color-palette-generator"
+          class="text-blue-400 hover:underline"
+          target="blank"
+          >GitHub Repository</a
+        >
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
